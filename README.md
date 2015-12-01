@@ -1,6 +1,6 @@
 # cocoapodsTest
 ![](https://raw.githubusercontent.com/dsxNiubility/SXWaveAnimate/master/screenshots/waveAnimate0.gif)
-```
+``` Objective-C
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
     [SPay handleOpenURL:url withCompletion:^(NSString *result, SPayError *error) {
